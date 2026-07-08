@@ -1,0 +1,52 @@
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 训练临时文件、日志
+temp/
+logs/
+runs/
+inference_results/
+api_results/
+uploads/
+*.log
+*.json
+
+# IDE 缓存
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 模型临时导出文件
+onnx_export/temp/
+tensorrt/
+ncnn/
+openvino/
+tis/
+old/
+mobile_date/
+date/
+
+# 大权重临时备份（可选，如果你不想上传超大pth可以取消注释）
+# *.pth
+# *.rknn
